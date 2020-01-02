@@ -1,0 +1,48 @@
+.user-auther {
+    display: inline-block;
+    position: relative;
+    max-width: 100%;
+}
+.ellipsis{
+    text-overflow: ellipsis !important;
+    white-space: nowrap !important;
+    overflow: hidden !important;
+}
+.user-auther--image {
+    border-radius: 50%;
+    object-fit: cover;
+}
+img {
+    border: 0;
+    vertical-align: middle;
+    width: 50%;
+    height: 84px;
+    width: 84px;
+}
+.card-image{
+    margin-bottom:20px;
+    margin-top: 20px;
+}
+.card-title{
+    margin-bottom:6px;
+    margin-top: 6px;
+}
+ 
+.card-title h5 {
+    color: rgb(77, 76, 76);
+}
+.card {
+    background: white;
+  }
+.card:hover {
+    box-shadow: 0 0 11px rgba(134, 134, 134, 0.2); 
+    color: 'none';
+  }
+.details{
+    color:grey;
+}
+.title h5{
+    color: grey;
+    margin-top: 30px;
+    margin-bottom:15px;
+}
